@@ -100,4 +100,25 @@
             <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+    
+    <!-- 指定Maven仓库 -->
+	<repositories>
+		<!-- oschina的maven仓库 -->
+		<repository>
+			<id>oschinaRepository</id>
+			<name>local private nexus</name>
+			<url>http://maven.oschina.net/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+
+		<!-- 官方maven仓库 -->
+		<!-- <repository> <id>maven</id> <name>Maven Repository Switchboard</name> 
+			<layout>default</layout> <url>http://repo1.maven.org/maven2</url> <snapshots> 
+			<enabled>true</enabled> </snapshots> </repository> -->
+	</repositories>
 </project>
