@@ -11,9 +11,13 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- *
- * @author levis
- * @version 1.0 13-4-16
+ * 
+ * @Title: ExtractMojo.java 
+ * @Package com.somnus.plugin 
+ * @Description: TODO
+ * @author Somnus
+ * @date 2015年6月2日 下午10:21:00 
+ * @version V1.0
  */
 @Mojo(
         name = "extract",

@@ -6,6 +6,15 @@ import org.apache.maven.plugins.annotations.Component;
 import org.apache.maven.project.MavenProject;
 import org.apache.maven.project.MavenProjectHelper;
 
+/**
+ * 
+ * @Title: AbstractExtractMojo.java 
+ * @Package com.somnus.plugin 
+ * @Description: TODO
+ * @author Somnus
+ * @date 2015年6月2日 下午10:21:07 
+ * @version V1.0
+ */
 abstract class AbstractExtractMojo extends AbstractMojo {
     /**
      * The current Maven project.

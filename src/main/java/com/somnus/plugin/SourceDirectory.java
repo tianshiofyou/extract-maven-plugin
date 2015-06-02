@@ -3,8 +3,13 @@ package com.somnus.plugin;
 import java.util.List;
 
 /**
- * @author levis
- * @version 1.0 13-4-16
+ * 
+ * @Title: SourceDirectory.java 
+ * @Package com.somnus.plugin 
+ * @Description: TODO
+ * @author Somnus
+ * @date 2015年6月2日 下午10:20:05 
+ * @version V1.0
  */
 public class SourceDirectory {
     private String directory;

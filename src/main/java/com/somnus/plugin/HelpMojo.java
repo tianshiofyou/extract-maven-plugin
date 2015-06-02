@@ -21,9 +21,14 @@ import java.util.List;
 
 /**
  * Display help information on extract-maven-plugin.<br/>
- * Call <code>mvn extract:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</code> to display parameter details.
- * @author
- * @version
+ * Call <code>mvn extract:help -Ddetail=true -Dgoal=&lt;goal-name&gt;</code> 
+ * to display parameter details.
+ * @Title: HelpMojo.java 
+ * @Package com.somnus.plugin 
+ * @Description: TODO
+ * @author Somnus
+ * @date 2015年6月2日 下午10:20:31 
+ * @version V1.0
  */
 @Mojo( name = "help", requiresProject = false, threadSafe = true )
 public class HelpMojo
@@ -58,7 +63,7 @@ public class HelpMojo
     private int indentSize;
 
     // groupId/artifactId/plugin-help.xml
-    private static final String PLUGIN_HELP_PATH = "/META-INF/maven/com.ips.plugin/extract-maven-plugin/plugin-help.xml";
+    private static final String PLUGIN_HELP_PATH = "/META-INF/maven/com.somnus.plugin/extract-maven-plugin/plugin-help.xml";
 
     private Document build()
         throws MojoExecutionException
