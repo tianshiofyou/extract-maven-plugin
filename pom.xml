@@ -45,7 +45,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-plugin-plugin</artifactId>
-                <version>2.4.1</version>
+                <version>3.2</version>
                 <configuration>
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                 </configuration>
@@ -100,7 +100,7 @@
         									maven-plugin-plugin
         								</artifactId>
         								<versionRange>
-        									[2.4.1,)
+        									[2.4.1)
         								</versionRange>
         								<goals>
         									<goal>descriptor</goal>
@@ -141,9 +141,9 @@
 	<repositories>
 		<!-- oschina的maven仓库 -->
 		<repository>
-			<id>oschinaRepository</id>
+			<id>localRepository</id>
 			<name>local private nexus</name>
-			<url>http://maven.oschina.net/content/groups/public/</url>
+			<url>http://maven.wozsz.com/content/groups/public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -151,10 +151,5 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-
-		<!-- 官方maven仓库 -->
-		<!-- <repository> <id>maven</id> <name>Maven Repository Switchboard</name> 
-			<layout>default</layout> <url>http://repo1.maven.org/maven2</url> <snapshots> 
-			<enabled>true</enabled> </snapshots> </repository> -->
 	</repositories>
 </project>
